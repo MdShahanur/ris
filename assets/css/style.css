@@ -47,7 +47,6 @@ h1,h2,h3, h4,h5, h6{
     width: 100%;
 }
 .hero {
-    height: 85vh;
     padding-top: 10px;
     padding-bottom: 20px;
     padding-left: 30px;
@@ -160,6 +159,7 @@ h1,h2,h3, h4,h5, h6{
 
 
 .hero {
+    height: 85vh;
     padding-top: 4%;
     background-image: url(../img/bg.jpg);
     background-size: cover;
@@ -200,3 +200,19 @@ h1,h2,h3, h4,h5, h6{
   background: #00b33c;
   transform: scale(1.05);
 }
+@media (min-width: 1290px) {
+  .hero h2 {
+    font-size: 2.5rem; /*  */
+  }
+
+  .hero p,
+  .hero li {
+    font-size: 1.125rem; /* বড় স্ক্রিনে প্যারাগ্রাফ ও লিস্ট আইটেম বড় করা */
+  }
+
+  .hero .btn-get-started {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+  }
+}
+
